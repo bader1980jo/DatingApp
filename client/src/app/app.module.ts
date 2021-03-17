@@ -27,6 +27,7 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 // Import library module
 import { NgxSpinnerModule } from "ngx-spinner";
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 
 
 
@@ -44,7 +45,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     NotFoundComponent,
     ServerErrorComponent,
     MemberCardComponent,
-    MemberEditComponent,    
+    MemberEditComponent,
+    PhotoEditorComponent,    
   ],
   imports: [
     BrowserModule,
